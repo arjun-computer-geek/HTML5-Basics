@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Layout - Using Div Element</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #header {
+      padding: 20px;
+      text-align: center;
+      color: grey;
+      background-color: lightgrey;
+    }
+
+    #navigation {
+      background-color: grey;
+    }
+
+    #navigation ul {
+        list-style-type: none;
+      }
+    
+    #navigation li {
+        display: inline-block;
+    }
+    
+    #navigation li a {
+      display: block;
+      padding: 16px 14px;
+      color: white;
+    }
+
+    #main {
+      width: 80%;
+      float: left;
+    }
+
+    #main hr {
+      margin: 10px;
+      width: 20%;
+    }
+
+    #main h2, p {
+      margin: 10px;
+    }
+
+    #aside {
+      width: 20%;
+      float: right;
+      border-left: 1px solid grey;
+    }
+
+    #aside ul {
+      margin: 10px;
+      list-style-type: none;
+    }
+
+    #aside a {
+      display: block;
+      padding: 4px;
+    }
+
+    #footer {
+      clear: both;
+      padding: 10px;
+      border-top: 1px solid grey;
+      background-color: lightgrey;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- document wrapper -->
+  <div id="container">
+    
+    <!-- header section [introductory section] -->
+    <div id="header">
+      <h1>Internet Things</h1>
+    </div>
+
+    <!-- main navigation -->
+    <div id="navigation">
+      <ul>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">Node JS</a></li>
+          <li><a href="#">Java</a></li>
+          <li><a href="#">Internet Basics</a></li>
+      </ul>
+    </div>
+
+    <!-- content section -->
+    <div id="main">
+      <h2>Main Content</h2>
+      <hr>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda placeat deleniti atque voluptatibus nulla harum dolorum reiciendis, aspernatur quisquam possimus optio reprehenderit odio! Dicta vitae ad dolore cupiditate expedita consequuntur!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur rem nulla quae officiis autem officia? Tempora harum illum dicta in voluptatibus minus commodi tempore corrupti assumenda, accusantium eveniet repudiandae unde!
+      </p>
+    </div>
+
+    <!-- sidebar section -->
+    <div id="aside">
+      <ul>
+        <li><a href="#">Page #1</a></li>
+        <li><a href="#">Page #2</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Google</a></li>
+        <li><a href="#">Youtube</a></li>
+        <li><a href="#">TheCodanV</a></li>
+      </ul>
+    </div>
+
+    <!-- footer section -->
+    <div id="footer">
+      <p>Copyright &copy; 2019</p>
+    </div>
+
+  </div>
+</body>
+</html>

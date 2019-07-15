@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Page Layout - Using New HTML5 Semantic Wrappers/Elements</title>
+  <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+  
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+  
+      body > header {
+        padding: 20px;
+        text-align: center;
+        color: grey;
+        background-color: lightgrey;
+      }
+  
+      nav {
+        background-color: grey;
+      }
+  
+      nav ul {
+          list-style-type: none;
+        }
+      
+      nav li {
+          display: inline-block;
+      }
+      
+      nav li a {
+        display: block;
+        padding: 16px 14px;
+        color: white;
+      }
+  
+      main {
+        width: 80%;
+        float: left;
+      }
+  
+      main hr {
+        margin: 10px;
+        width: 20%;
+      }
+  
+      main h2, p {
+        margin: 10px;
+      }
+  
+      aside {
+        width: 20%;
+        float: right;
+        border-left: 1px solid grey;
+      }
+  
+      aside ul {
+        margin: 10px;
+        list-style-type: none;
+      }
+  
+      aside a {
+        display: block;
+        padding: 4px;
+      }
+  
+      footer {
+        clear: both;
+        padding: 10px;
+        border-top: 1px solid grey;
+        background-color: lightgrey;
+      }
+  
+    </style>
+</head>
+<body>
+  <!-- introductory element [Global header] -->
+  <header>
+    <h1>Internet Things</h1>
+  </header>
+
+  <!-- main navigation -->
+  <nav>
+      <ul>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">Node JS</a></li>
+          <li><a href="#">Java</a></li>
+          <li><a href="#">Internet Basics</a></li>
+      </ul>
+  </nav>
+
+  <!-- content section -->
+  <main>
+    <header>
+      <h2>Main Content</h2>
+    </header>
+    
+    <article>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nostrum, nihil repellat quidem quas doloribus in, velit soluta reprehenderit possimus rerum vitae facere perferendis alias harum exercitationem officiis voluptate quisquam!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nobis non facere placeat reiciendis at porro eius, repellendus quas eos aperiam dolor ratione rerum quis eveniet culpa! Blanditiis, libero recusandae.
+      </p>
+    </article>
+  </main>
+
+  <!-- sidebar  section-->
+  <aside>
+      <ul>
+          <li><a href="#">Page #1</a></li>
+          <li><a href="#">Page #2</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Google</a></li>
+          <li><a href="#">Youtube</a></li>
+          <li><a href="#">TheCodanV</a></li>
+        </ul>
+  </aside>
+
+  <!-- footer section -->
+  <footer>
+      <p>Copyright &copy; 2019</p>
+  </footer>
+
+</body>
+</html>
