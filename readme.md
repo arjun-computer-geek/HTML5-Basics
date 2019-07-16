@@ -11,7 +11,7 @@
 
 # HTML5 Basics #2
 16 Jul 2019 =>
-[]
+[https://youtu.be/WR-XtKgLKyU]
 ## Photo Album using 
 - &lt;figure&gt;
 - &lt;figcaption&gt;
