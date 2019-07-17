@@ -16,3 +16,9 @@
 - &lt;figure&gt;
 - &lt;figcaption&gt;
 - &lt;img&gt;
+
+# HTML5 Basics #3 
+17 Jul 2019 => 
+[https://youtu.be/WUnEBVwnjZU]
+## CSS Grid
+## Git/Github Basics
