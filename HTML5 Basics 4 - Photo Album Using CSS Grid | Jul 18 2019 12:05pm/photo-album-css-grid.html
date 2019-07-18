@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Photo Album - CSS Grid</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    header {
+      text-align: center;
+      padding: 10px;
+      color: grey;
+      font-family: cursive;
+    }
+   
+    main {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: minmax(140px, auto);
+      grid-gap: 1em;
+    }
+  
+    main img {
+      width: 100%;
+    }
+    
+    figure {
+      margin-bottom: 0.5em;
+    }
+
+    figure figcaption {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cool Memories</h1>  
+  </header>
+  <main>
+    <!-- first column -->
+    <div>
+      <a href="images/bay-beach.jpg">
+        <figure>
+            <img src="images/bay-beach.jpg" alt="Bay Beach" />
+            <figcaption>Bay beach</figcaption>
+          </figure>
+      </a>
+        
+        <figure>
+          <img src="images/adorable-animal.jpg" alt="Adorable Animal" />
+          <figcaption>Adorable Animal</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/arch-design.jpg" alt="Architecture Design" />
+          <figcaption>Architecture Design</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/bay-beach.jpg" alt="Bay Beach" />
+          <figcaption>Bay beach</figcaption>
+        </figure>
+      
+        <figure>
+          <img src="images/adorable-animal.jpg" alt="Adorable Animal" />
+          <figcaption>Adorable Animal</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/arch-design.jpg" alt="Architecture Design" />
+          <figcaption>Architecture Design</figcaption>
+        </figure>
+    </div>
+
+    <!-- Second Column -->
+    <div>
+      <a href="images/blur-code.jpg">
+        <figure>
+            <img src="images/blur-code.jpg" alt="Blur Code" />
+            <figcaption>Blur Code</figcaption>
+          </figure>
+      </a>
+      
+
+      <figure>
+        <img src="images/city.jpg" alt="City" />
+        <figcaption>City</figcaption>
+      </figure>
+    
+      <figure>
+        <img src="images/clouds-dawn.jpg" alt="Clouds Dawn" />
+        <figcaption>Clouds Dawn</figcaption>
+      </figure>
+      <figure>
+        <img src="images/blur-code.jpg" alt="Blur Code" />
+        <figcaption>Blur Code</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/city.jpg" alt="City" />
+        <figcaption>City</figcaption>
+      </figure>
+    
+      <figure>
+        <img src="images/clouds-dawn.jpg" alt="Clouds Dawn" />
+        <figcaption>Clouds Dawn</figcaption>
+      </figure>
+    </div>
+
+    <!-- Third Column -->
+    <div>
+      <figure>
+        <img src="images/connection-data-desk.jpg" alt="Connection Data Desk" />
+        <figcaption>Connection Data Desk</figcaption>
+      </figure>
+    
+      <figure>
+        <img src="images/adorable-animal.jpg" alt="Adorable Animal" />
+        <figcaption>Adorable Animal</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/bay-beach.jpg" alt="Bay Beach" />
+        <figcaption>Bay beach</figcaption>
+      </figure>
+  
+      <figure>
+        <img src="images/adorable-animal.jpg" alt="Adorable Animal" />
+        <figcaption>Adorable Animal</figcaption>
+      </figure>
+      <figure>
+        <img src="images/connection-data-desk.jpg" alt="Connection Data Desk" />
+        <figcaption>Connection Data Desk</figcaption>
+      </figure>
+    
+      <figure>
+        <img src="images/adorable-animal.jpg" alt="Adorable Animal" />
+        <figcaption>Adorable Animal</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/bay-beach.jpg" alt="Bay Beach" />
+        <figcaption>Bay beach</figcaption>
+      </figure>
+  
+    </div>
+
+    <!-- forth Column -->
+    <div>
+      <a href="images/bay-beach.jpg">
+        <figure>
+            <img src="images/bay-beach.jpg" alt="Bay Beach" />
+            <figcaption>Bay beach</figcaption>
+          </figure>
+      </a>
+      
+    
+      <figure>
+        <img src="images/adorable-animal.jpg" alt="Adorable Animal" />
+        <figcaption>Adorable Animal</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/arch-design.jpg" alt="Architecture Design" />
+        <figcaption>Architecture Design</figcaption>
+      </figure>
+      <figure>
+        <img src="images/bay-beach.jpg" alt="Bay Beach" />
+        <figcaption>Bay beach</figcaption>
+      </figure>
+    
+      <figure>
+        <img src="images/adorable-animal.jpg" alt="Adorable Animal" />
+        <figcaption>Adorable Animal</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/arch-design.jpg" alt="Architecture Design" />
+        <figcaption>Architecture Design</figcaption>
+      </figure>
+    </div>
+  </main>
+</body>
+</html>
