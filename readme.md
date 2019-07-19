@@ -29,3 +29,10 @@
 ## CSS3 Grid
 ## Photo Album Using CSS3 Grid
 ## Cool Memories
+
+# HTML5 Basics #5
+19 Jul 2019 => 
+[https://youtu.be/yZFKSEdbVU8]
+## CSS3 Grid
+## HTML Page Layout/Template
+## HTML5 Semantic Tags/Elements
